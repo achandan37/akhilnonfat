@@ -46,10 +46,11 @@ class App extends Component {
   }
 
   // rendering the app
-  
+
   render(){
     return (
       <div className="App">
+        <img className="BreakdownLogo" src="https://www.breakdownservices.com/assets/images/logos/bds_logo_500.png" alt="Breakdown Services, Ltd"/>
         <Projects projects={this.state.projects} interestfn={this.addRemoveInterest}/>
       </div>
     );
