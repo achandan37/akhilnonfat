@@ -25,6 +25,10 @@
   color: #61dafb;
 }
 
+.App .BreakdownLogo{
+  max-width:100%;
+}
+
 .App .individualprojects:nth-child(odd){
   background-color:#e8e8e8;
 }
